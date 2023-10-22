@@ -9,5 +9,4 @@ public class LeafyAlliesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LeafyAlliesApplication.class, args);
 	}
-
 }
