@@ -13,6 +13,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 public class Review {
     @Id
-    private ObjectId objectId;
+    private ObjectId _id;
     private String body;
+
+    public Review(String body) {
+        this.body = body;
+    }
 }
