@@ -21,9 +21,9 @@ public class Movie {
     private String title;
     private String releaseDate;
     private String trailerLink;
-    private String poster;
+    private String posterLink;
     private List<String> genres;
     private List<String> backdrops;
     @DocumentReference
-    private List<Review> reviewIds;
+    private List<Review> reviews;
 }
