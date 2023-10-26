@@ -1,5 +1,6 @@
-package com.rewindo.LeafyAllies;
+package com.rewindo.LeafyAllies.movies;
 
+import com.rewindo.LeafyAllies.movies.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

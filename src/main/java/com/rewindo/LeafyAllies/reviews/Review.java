@@ -1,4 +1,4 @@
-package com.rewindo.LeafyAllies;
+package com.rewindo.LeafyAllies.reviews;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

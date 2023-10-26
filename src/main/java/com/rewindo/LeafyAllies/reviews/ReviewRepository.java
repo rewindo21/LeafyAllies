@@ -1,4 +1,4 @@
-package com.rewindo.LeafyAllies;
+package com.rewindo.LeafyAllies.reviews;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;

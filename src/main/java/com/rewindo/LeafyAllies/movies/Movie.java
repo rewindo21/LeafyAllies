@@ -1,5 +1,6 @@
-package com.rewindo.LeafyAllies;
+package com.rewindo.LeafyAllies.movies;
 
+import com.rewindo.LeafyAllies.reviews.Review;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
