@@ -9,10 +9,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
 
-@Document(collection = "reviews")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Document(collection = "reviews")
 public class Review {
     @Id
     private ObjectId _id;
