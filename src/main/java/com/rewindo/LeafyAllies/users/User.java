@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
+import org.springframework.data.mongodb.core.mapping.FieldType;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -26,7 +28,8 @@ public class User implements UserDetails {
     private String email;
     private String password;
 
-    //@Enumerated(EnumType.STRING)
+    //@Enumerated(EnumType.STRING)  //JPA annotation
+    @Field(targetType = FieldType.STRING)   //Specify enum as string
     private Role role;
 
     @Override
