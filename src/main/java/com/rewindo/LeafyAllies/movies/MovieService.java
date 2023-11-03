@@ -1,7 +1,5 @@
 package com.rewindo.LeafyAllies.movies;
 
-import com.rewindo.LeafyAllies.movies.Movie;
-import com.rewindo.LeafyAllies.movies.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
