@@ -1,4 +1,4 @@
-package com.rewindo.LeafyAllies.configs;
+package com.rewindo.LeafyAllies.configurations;
 
 import com.rewindo.LeafyAllies.users.UserRepository;
 import lombok.RequiredArgsConstructor;

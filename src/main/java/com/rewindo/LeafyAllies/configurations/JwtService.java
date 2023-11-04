@@ -1,4 +1,4 @@
-package com.rewindo.LeafyAllies.configs;
+package com.rewindo.LeafyAllies.configurations;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
